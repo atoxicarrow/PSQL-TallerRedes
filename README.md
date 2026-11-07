@@ -97,21 +97,6 @@ En `03_error_sql.pcap`, el paquete 15 contiene el error 22012; el 16, ReadyForQu
 
 La captura manual `00_consulta_inicial.pcap` tiene dos flujos y utiliza otra numeración: la consulta está en el paquete 27. La sesión del laboratorio no usa TLS; SCRAM autentica, pero no cifra las consultas ni los resultados.
 
-## Captura manual para el video
-
-En una terminal:
-
-```bash
-podman exec --user root pg_client tcpdump --immediate-mode -i eth0 -p -nn -s 0 -U -w /tmp/video.pcap 'tcp port 5432'
-```
-
-Esperar `listening on eth0`. En otra terminal, conectarse con psql, ejecutar las consultas y salir con `\q`. Detener tcpdump con Ctrl+C y copiar el archivo:
-
-```bash
-podman cp pg_client:/tmp/video.pcap capturas/video.pcap
-```
-
-El video debe durar menos de 8 minutos y mostrar configuración, conexión, uso de SQL, generación de tráfico, errores y análisis de paquetes. Guardar la captura nueva con otro nombre para conservar las del informe.
 
 ## Detener y volver a iniciar
 
