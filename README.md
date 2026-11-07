@@ -114,12 +114,6 @@ La detención conserva los datos y los contenedores.
 - **PCAP vacío:** esperar el inicio de tcpdump, usar `--immediate-mode` y detener con Ctrl+C para cerrar el archivo.
 - **Docker Compose:** no se necesita; los scripts utilizan Podman directamente.
 
-## Entrega
-
-Esta carpeta está lista para subir a GitHub. Las fuentes editables del informe, las imágenes, el guion del video, las exportaciones, los documentos del curso y los duplicados se conservaron fuera del repositorio, en la carpeta hermana `../opcional/`. No son necesarios para ejecutar el laboratorio ni abrir el informe entregado.
-
-Queda pendiente grabar el video y adjuntar su archivo o enlace según indique el curso. El enunciado también menciona el repositorio asignado en Git EIT; comprobar el destino oficial de entrega. El capítulo 3 corresponde a la Tarea 3.
-
 ## Referencias técnicas
 
 - [Flujo de mensajes PostgreSQL 16](https://www.postgresql.org/docs/16/protocol-flow.html).
