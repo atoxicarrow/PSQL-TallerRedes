@@ -1,0 +1,4 @@
+# Imagen observada durante el laboratorio: PostgreSQL 16.15, Alpine, x86_64.
+FROM docker.io/library/postgres@sha256:ac838714b7d794185a866e5a6b479b954e7d8a070568aa0acac6fe07c3070bf5
+RUN apk add --no-cache tcpdump
+CMD ["sleep", "infinity"]
