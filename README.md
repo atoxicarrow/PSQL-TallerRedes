@@ -121,3 +121,7 @@ La detención conserva los datos y los contenedores.
 - [SASL/SCRAM](https://www.postgresql.org/docs/16/sasl-authentication.html).
 - [Imagen oficial PostgreSQL](https://hub.docker.com/_/postgres).
 - [Podman run](https://docs.podman.io/en/v6.1.3/markdown/podman-run.1.html).
+
+## Link al Video
+(https://www.youtube.com/watch?v=UMKOdanUHno).
+
